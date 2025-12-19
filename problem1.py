@@ -21,9 +21,8 @@ class Calculator:
             return "this is the invalid operation"
 
 
-# Example usage
-a = float(input("Enter first number: "))
-b = float(input("Enter second number: "))
+a = float(input("Enter the first digit: "))
+b = float(input("Enter the second digit: "))
 symbol = input("Enter operation (add or subtract or multiply or divide): ")
 
 calc = Calculator(a, b, symbol)
